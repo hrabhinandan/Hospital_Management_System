@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #1486f8; /* Background color */
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+.navbar-brand {
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+    color: #333; /* Text color */
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: 500; /* Adjust font weight as needed */
+    color: #555; /* Text color */
+    margin-right: 20px; /* Adjust margin between links */
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Text color for active and hover states */
+}

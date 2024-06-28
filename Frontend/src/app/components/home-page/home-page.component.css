@@ -1,0 +1,142 @@
+/* Navbar */
+.navbar {
+   padding-top: 0px;
+   padding-bottom: 0px;
+    background-color: rgb(55, 11, 215); 
+
+}
+.box-link {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #000; /* Change to desired color */
+    border-radius: 5px; /* Adjust the border-radius as needed */
+    text-align: center;
+    text-decoration: none;
+    background-color: #f8f9fa; /* Change to desired background color */
+    color: #000; /* Change to desired text color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  .box-link:hover {
+    background-color: #000; /* Change to desired hover background color */
+    color: #fff; /* Change to desired hover text color */
+  }
+  
+/* .navbar {
+    background-color: transparent;  Make the navbar transparent 
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;  Ensure the navbar appears on top of other elements 
+} */
+/*.container {
+    width: 100%;
+    height: 100vh;  Adjust as needed 
+   background-image: url('your-image.jpg');  Replace 'your-image.jpg' with your image URL 
+    background-size: auto; Adjust to cover, contain, or specific dimensions 
+    background-position: 0%; Adjust as needed 
+    background-repeat: no-repeat;  Adjust as needed 
+}*/
+
+.sign-up-button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #fff;
+    margin-left: 300px;
+  }
+  
+   .nav-link {
+    color: #fa0000;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0px;
+    transition: background-color 0.3s;
+    background-color: #fa0000;
+  }
+  
+   .nav-link:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+ 
+  .navbar-brand {
+    color: #fa0000; /* Navbar brand text color */
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #5a27f5; /* Navbar brand text color on hover */
+}
+
+.navbar-toggler-icon {
+    color: #d80f20de; /* Navbar toggler color */
+}
+
+.nav-link {
+    color: #fafafa; /* Navbar link color */
+}
+
+.dropdown-item  {
+     color: #ffffff;
+     font-weight: bold;
+    text-decoration: none;
+    border-radius: 0px;
+    transition: background-color 0.3s;
+    background-color: #ff0303;
+}
+.dropdown-item:hover {
+    color:#080bd8;
+}
+
+.nav-link:hover {
+    color: #ffffff; /* Navbar link color on hover */
+}
+
+/* Carousel */
+.carousel {
+    position: relative;
+   
+}
+
+.carousel-item img {
+    height: 508px; /* Carousel image height */
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%); /* Invert carousel control icons */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Adjust carousel control width */
+}
+
+.carousel-indicators button {
+    background-color: #0de065; /* Carousel indicator button background color */
+    border-color: #10e6a6; /* Carousel indicator button border color */
+}
+
+.carousel-indicators button.active {
+    background-color: #c0e710; /* Active carousel indicator button background color */
+    border-color: #37eb0b; /* Active carousel indicator button border color */
+}
+
+/* Adjust carousel control positioning */
+.carousel-control-prev {
+    left: -50px;
+}
+
+.carousel-control-next {
+    right: -50px;
+}
+
+  
+  
+  
+ 

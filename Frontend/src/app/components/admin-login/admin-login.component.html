@@ -1,0 +1,24 @@
+
+
+<form #data="ngForm" [formGroup]="loginForm" (ngSubmit)="login(data)">
+
+
+    <div class="container">
+
+
+        <label for="email"><b>EmailId</b></label>
+        <input type="text" placeholder="Enter user Email" name="emailId" formControlName="email">
+        <span *ngIf="emailId && emailId.touched && emailId.invalid" style="color: red; ">Invalid emailId</span>
+
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" formControlName="password">
+        <span *ngIf="password && password.invalid && password.touched" style="color: red">Invalid password</span><br>
+
+        <button (click)="submit()" type="submit">Sign In</button>
+        <br>
+        <br>
+
+        <button (click)="submit()" style="width: 80px; height: 40px;" type="submit">Reset</button>
+    </div>
+</form>

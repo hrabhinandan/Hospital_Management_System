@@ -1,0 +1,28 @@
+
+
+<div class="container">
+    <h1 class="justify-content-center">Doctor Details</h1>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>MailId</th>
+                <th>Mobile</th>
+                <th>Schedule</th>
+               <th>DeptId</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let doctor of doctors">
+                <td>{{doctor.doctorId}}</td>
+                <td>{{doctor.doctorName}}</td>
+                <td>{{doctor.emailId}}</td>
+                <td>{{doctor.doctorMobile}}</td>
+                <td>{{doctor.doctorSchedule}}</td>
+               <td>{{doctor.department.deptId}}</td>
+            </tr>
+           
+        </tbody>
+    </table>
+</div>

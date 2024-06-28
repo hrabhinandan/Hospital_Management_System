@@ -1,0 +1,61 @@
+<div class="container-fluid pt-3 mt-3">
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <form [formGroup]="appointmentFormGroup" (ngSubmit)="addAppointments()">
+
+
+                <h2>Fill in the details</h2>
+                <div class="form-group row">
+
+
+                    <label class="col-2 col-form-label">Appoint Date</label>
+                        <input type="text" class="form-control" formControlName="appointmentDate">
+
+                    
+                </div>
+
+
+                <div class="form-group row">
+                    <label class="col-2 col-form-label">Appoint Time</label>
+                    
+                        <input type="text" class="form-control" formControlName="appointmentTime" />
+                        
+
+                    
+                    </div>
+                    <div class="form-group row">
+                        <div formGroupName="doctor">
+                            <label class="col-2 col-form-label">Doctor Id</label>
+                            
+                            <input type="text" class="form-control" formControlName="doctorId"/>
+
+                            
+
+                        </div>
+
+                    </div>
+
+                    <div class="form-group row">
+                        <div formGroupName="user">
+                            <label class="col-2 col-form-label">User Id</label>
+                            
+                            <input type="text" class="form-control" formControlName="userId"/>
+
+                            
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+                        <div>
+                            <input type="submit" class="btn btn-success" value="submit">
+                        </div>
+            </form>
+        </div>
+    </div>
+</div>

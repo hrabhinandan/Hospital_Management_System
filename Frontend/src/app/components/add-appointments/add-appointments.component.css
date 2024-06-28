@@ -1,0 +1,23 @@
+.container-fluid {
+    padding-top: 0px; /* Adjust top padding as needed */
+    margin-top: 0px; /* Adjust top margin as needed */
+    background-color: rgb(255, 97, 171);
+}
+
+.form-group {
+    margin-bottom: 20px; /* Adjust bottom margin as needed */
+}
+
+.col-form-label {
+    font-weight: bold; /* Make labels bold */
+}
+
+.form-control {
+    width: 100%; /* Set input width to fill its container */
+}
+
+.btn {
+    width: 100%; /* Set button width to fill its container */
+    max-width: 200px; /* Set max width for better responsiveness */
+    margin-top: 20px; /* Adjust top margin as needed */
+}

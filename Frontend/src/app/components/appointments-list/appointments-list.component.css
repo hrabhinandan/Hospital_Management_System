@@ -1,0 +1,32 @@
+.container {
+    margin-top: 20px; /* Adjust as needed */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #6381e4;
+}
+
+.table th {
+    background-color: #eed8ee; /* Header background color */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #aee6f7; /* Even row background color */
+}
+
+.table tbody tr:hover {
+    background-color: #f10707; /* Hover row background color */
+}

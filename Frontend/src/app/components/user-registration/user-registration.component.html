@@ -1,0 +1,187 @@
+
+<div class="container justify-content-center col-6">
+    <h2>Add new patient</h2>
+    <form [formGroup]="userFormGroup" (ngSubmit)="addUser()" class="custom-form">
+      <!--User Name-->
+      <div class="mb-3">
+        <label class="form-label">Patient Name</label>
+        <input type="text" 
+        class="form-control" 
+        formControlName="userName" />
+        <div *ngIf="
+                  userFormGroup.controls['userName'].touched  || 
+                  userFormGroup.controls['userName'].dirty
+                  "
+                  >
+          <div 
+          class="alert alert-danger" 
+          *ngIf=" userFormGroup.controls['userName'].errors?.['required']"
+          >
+            Patient Name is required</div>
+        </div>
+        <div class="alert alert-danger" 
+        *ngIf="userFormGroup.controls['userName'].errors?.['pattern']"
+        >
+          Patient Name is Invalid only Alphabets allowed</div>
+      </div>
+
+
+
+      <div class="mb-3">
+        <label class="form-label">Patient Age</label>
+        <input type="text" 
+        class="form-control" 
+        formControlName="userAge" />
+        <div *ngIf="
+                  userFormGroup.controls['userAge'].touched  || 
+                  userFormGroup.controls['userAge'].dirty
+                  "
+                  >
+          <div 
+          class="alert alert-danger" 
+          *ngIf=" userFormGroup.controls['userAge'].errors?.['required']"
+          >
+            Patient Age is required</div>
+        </div>
+        <div class="alert alert-danger" 
+        *ngIf="userFormGroup.controls['userAge'].errors?.['pattern']"
+        >
+          Patient Age is Invalid only numbers allowed</div>
+      </div>
+
+
+
+      
+
+
+
+      <div class="mb-3">
+        <label class="form-label">Patient Gender</label>
+        <input type="text" 
+        class="form-control" 
+        formControlName="userGender" />
+        <div *ngIf="
+                  userFormGroup.controls['userGender'].touched  || 
+                  userFormGroup.controls['userGender'].dirty
+                  "
+                  >
+          <div 
+          class="alert alert-danger" 
+          *ngIf=" userFormGroup.controls['userGender'].errors?.['required']"
+          >
+            Patient Gender is required</div>
+        </div>
+        <div class="alert alert-danger" 
+        *ngIf="userFormGroup.controls['userGender'].errors?.['pattern']"
+        >
+          Patient Gender is Invalid only numbers allowed</div>
+      </div>
+
+
+
+
+      <div class="mb-3">
+        <label class="form-label">Patient Mobile</label>
+        <input type="text" 
+        class="form-control" 
+        formControlName="userMobile" />
+        <div *ngIf="
+                  userFormGroup.controls['userMobile'].touched  || 
+                  userFormGroup.controls['userMobile'].dirty
+                  "
+                  >
+          <div 
+          class="alert alert-danger" 
+          *ngIf=" userFormGroup.controls['userMobile'].errors?.['required']"
+          >
+            Patient Mobile is required</div>
+        </div>
+        <div class="alert alert-danger" 
+        *ngIf="userFormGroup.controls['userMobile'].errors?.['pattern']"
+        >
+          Patient Mobile is Invalid only numbers allowed</div>
+      </div>
+
+      
+
+      <div class="mb-3">
+        <label class="form-label">Patient EmailId</label>
+        <input type="text" 
+        class="form-control" 
+        formControlName="emailId" />
+        <div *ngIf="
+                  userFormGroup.controls['emailId'].touched  || 
+                  userFormGroup.controls['emailId'].dirty
+                  "
+                  >
+          <div 
+          class="alert alert-danger" 
+          *ngIf=" userFormGroup.controls['emailId'].errors?.['required']"
+          >
+            Patient Email is required</div>
+        </div>
+        <div class="alert alert-danger" 
+        *ngIf="userFormGroup.controls['emailId'].errors?.['pattern']"
+        >
+          Patient Email is Invalid</div>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Patient Password</label>
+        <input type="password" 
+        class="form-control" 
+        formControlName="password" />
+        <div *ngIf="
+                  userFormGroup.controls['password'].touched  || 
+                  userFormGroup.controls['password'].dirty
+                  "
+                  >
+          <div 
+          class="alert alert-danger" 
+          *ngIf=" userFormGroup.controls['password'].errors?.['required']"
+          >
+            Patient Password is required</div>
+        </div>
+        <div class="alert alert-danger" 
+        *ngIf="userFormGroup.controls['password'].errors?.['pattern']"
+        >
+          Patient Password is Invalid</div>
+      </div>
+      
+      
+      <div class="mb-3">
+        <label class="form-label">Patient Description</label>
+        <input type="text" 
+        class="form-control" 
+        formControlName="userDescription" />
+        <div *ngIf="
+                  userFormGroup.controls['userDescription'].touched  || 
+                  userFormGroup.controls['userDescription'].dirty
+                  "
+                  >
+          <div 
+          class="alert alert-danger" 
+          *ngIf=" userFormGroup.controls['userDescription'].errors?.['required']"
+          >
+            Patient Description is required</div>
+        </div>
+        <div class="alert alert-danger" 
+        *ngIf="userFormGroup.controls['userDescription'].errors?.['pattern']"
+        >
+          Patient Description is Invalid</div>
+      </div>
+
+
+
+  
+  
+  
+  <div class="mb-3">
+    <input type="submit" 
+    value="Add Patient" 
+    class="btn btn-primary" 
+     />
+  </div>
+  </form>
+  
+  </div>

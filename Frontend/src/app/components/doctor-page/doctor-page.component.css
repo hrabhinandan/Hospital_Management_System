@@ -1,0 +1,91 @@
+/* Navbar */
+.navbar {
+    background-color: #007bff; /* Navbar background color */
+}
+
+.navbar-brand {
+    color: #ff0909; /* Navbar brand text color */
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #94dbfc; /* Navbar brand text color on hover */
+}
+
+.navbar-toggler-icon {
+    color: #a8f551; /* Navbar toggler color */
+}
+
+.nav-link {
+    color: #140aa8; /* Navbar link color */
+}
+
+.nav-link:hover {
+    color: #b0f3e5; /* Navbar link color on hover */
+}
+
+/* Navbar Container */
+.container-fluid {
+    padding-right: 15px; /* Adjust as needed */
+    padding-left: 15px; /* Adjust as needed */
+}
+
+/* Navbar Items */
+.navbar-nav {
+    margin-left: position; /* Align navbar items to the right */
+}
+
+.navbar-nav .nav-item {
+    margin-left: 0px; /* Adjust space between navbar items */
+}
+
+/* Active Link */
+.navbar-nav .nav-item .nav-link.active {
+    color: #0056b3; /* Active link background color */
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    background-color: #58ec84; /* Dropdown menu background color */
+}
+
+.dropdown-menu .dropdown-item {
+    color: #212529; /* Dropdown item text color */
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #13f76a; /* Dropdown item background color on hover */
+}
+
+/* Search Bar */
+.app-search input[type="text"] {
+    padding: 6px 8px;
+    border: 1px solid #f8c4e7;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.app-search button {
+    background-color: #007bff;
+    color: #92e79e;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.app-search button:hover {
+    background-color: #0056b3;
+}
+
+/* Logout Button */
+.navbar-nav .btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #f10606;
+}
+
+.navbar-nav .btn:hover {
+    color: #dc3545;
+}

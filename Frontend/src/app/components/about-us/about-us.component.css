@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+ background-image: src="src/assets/images/mg.jpeg";  /*Replace with the actual path to your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(228, 241, 217, 0.9); /* Adjust the background color and opacity as needed */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+ 
+  color: rgb(162, 218, 250);
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+h2, h3 {
+  margin-top: 30px;
+}
+
+img.background-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

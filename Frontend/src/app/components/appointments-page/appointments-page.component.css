@@ -1,0 +1,59 @@
+/* Navbar */
+.navbar {
+    background-color: #007bff; /* Navbar background color */
+}
+
+.navbar-brand {
+    color: #110901; /* Navbar brand text color */
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #24e6cc; /* Navbar brand text color on hover */
+}
+
+.navbar-toggler-icon {
+    color: #a412e7; /* Navbar toggler color */
+}
+
+.nav-link {
+    color: #8d6ffc; /* Navbar link color */
+}
+
+.nav-link:hover {
+    color: #e112a7; /* Navbar link color on hover */
+}
+
+/* Navbar Container */
+.container-fluid {
+    padding-right: 15px; /* Adjust as needed */
+    padding-left: 15px; /* Adjust as needed */
+    background-color: rgb(222, 227, 252);
+}
+
+/* Navbar Items */
+.navbar-nav {
+    margin-left: position; /* Align navbar items to the right */
+}
+
+.navbar-nav .nav-item {
+    margin-left: 0; /* Adjust space between navbar items */
+}
+
+/* Active Link */
+.navbar-nav .nav-item .nav-link.active {
+ color: #8275f1; /* Active link background color */
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    background-color: #0d7ff1; /* Dropdown menu background color */
+}
+
+.dropdown-menu .dropdown-item {
+    color: #212529; /* Dropdown item text color */
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #1a84ee; /* Dropdown item background color on hover */
+}
